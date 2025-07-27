@@ -114,6 +114,8 @@
 - { setname: aide,                     name: [aide-selinux, aide-without-acl], addflavor: true }
 - { setname: aider,                    name: [aider-chat, python:aider-chat] }
 - { setname: aider,                    name: [aider-chat-bedrock, aider-chat-browser, aider-chat-help, aider-chat-playwright, aider-chat-playwright-browser-help-bedrock, aider-chat-venv], addflavor: true }
+- { setname: aiken,                    name: rust:$0 }
+- { setname: aiken,                   name: [rust:aiken-lang, rust:aiken-lsp, rust:aiken-project, rust:uplc], addflavor: true }
 - { setname: aircrack-ng,              name: aircrack-ng-beta, weak_devel: true, nolegacy: true }
 - { setname: airshipper,               name: rust:$0 }
 - { setname: airspy,                   name: [airspy-host, airspyone-host] }
