@@ -103,6 +103,7 @@
 - { setname: agar,                     name: [agartest,libagar-test], addflavor: test }
 - { setname: agda,                     name: "haskell:agda" }
 - { setname: agda,                     name: agda-bin, addflavor: bun }
+- { setname: agda,                     name: agdawithpackages, addflavor: true }
 - { setname: agda-stdlib,              name: "haskell:agda-stdlib" }
 - { setname: agenda,                   name: maui-agenda }
 - { setname: agg,                      name: [antigraingeometry,libagg,agg26,agg-2.6] }
