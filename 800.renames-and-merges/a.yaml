@@ -161,6 +161,7 @@
 - { setname: allure-report,            name: allure-commandline }
 - { setname: allureofthestars,         name: allure-of-the-stars }
 - { setname: allureofthestars,         name: "haskell:allure" }
+- { setname: almo,                     name: python:$0 }
 - { setname: alog,                     name: lib$0 }
 - { setname: alogg,                    name: [liballegroogg,allegroogg] }
 - { setname: alpine,                   name: alpine-fancythreading, addflavor: true }
