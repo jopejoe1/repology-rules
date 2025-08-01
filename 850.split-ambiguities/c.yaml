@@ -5,7 +5,7 @@
 - { name: cabal, addflag: unclassified }
 
 - { name: cabin, wwwpart: cabinpkg, setname: cabin-cpp-package-manager }
-- { name: cabin, wwwpart: impallari, setname: font:cabin }
+- { name: cabin, wwwpart: impallari, setname: fonts:cabin }
 - { name: cabin, addflag: unclassified }
 
 - { name: cachelib, wwwpart: facebook, setname: facebook-cachelib }
