@@ -273,6 +273,7 @@
 - { setname: appindicator-sharp,       name: appindicator3-sharp }
 - { setname: appium,                   name: appium-desktop }
 - { setname: appmenu-qt,               name: appmenu-qt4 }
+- { setname: applet-window-buttons,    name: [applet-window-buttons6,plasma-window-buttons] }
 - { setname: appstream,                name: appstream-qt }
 - { setname: appstream-glib,           name: libappstream-glib }
 - { setname: apq,                      name: apq-base } # ravenports
