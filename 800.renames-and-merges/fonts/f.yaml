@@ -91,6 +91,12 @@
     - otf-fira-go
     - ttf-fira-go
 
+- setname: "fonts:firamath"
+  name:
+    - fira-math
+    - font-firamath
+    - otf-firamath
+
 - setname: "fonts:fontawesome"
   name:
     - awesome-otf
