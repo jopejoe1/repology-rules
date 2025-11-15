@@ -136,12 +136,9 @@
     - sil-gentium-basic-fonts
     - ttf-gentium-basic
 
-# unspecified (not basic, not plus) gentium packages seems to be
-# outdated as their homepages point to a redirect page; we stick
-# them into gentium plus which has version higher than any of them
-# to make them outdated
-- setname: "fonts:gentium-plus"
+- setname: "fonts:gentium"
   name:
+    - font-gentium
     - font-sil-gentium
     - fonts-sil-gentium
     - fonts-ttf-gentium
@@ -152,19 +149,29 @@
     - sil-gentium-fonts
     - ttf-gentium
 
-- setname: "fonts:gentium-plus"
+- setname: "fonts:gentium"
+  addflavor: book
+  name:
+    - font-gentium-book
+    - font-sil-gentium-book
+    - gentiumbook
+    - gentium-book
+
+- setname: "fonts:gentium"
+  addflavor: plus
   name:
     - fonts-gentium-plus
     - fonts-sil-gentiumplus
     - fonts-ttf-sil-gentium-plus
     - gentiumplus
+    - gentium-plus
     - gentium-plus-font
     - gentiumplus-ttf
     - sil-gentium-plus-fonts
     - ttf-gentium-plus
 
-- setname: "fonts:gentium-plus"
-  addflavor: compact
+- setname: "fonts:gentium"
+  addflavor: plus-compact
   name:
     - fonts-sil-gentiumplus-compact
     - fonts-ttf-sil-gentium-plus-compact
